@@ -1,17 +1,81 @@
-.title {
-	font-family: arial;
-	font-size: 30px;
-	margin-top: 0;
+/* Header Styles */
+#main-header {
+	border-bottom: 1px solid #eee;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+#main-header .navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#main-header .navbar a {
+	font-size: 15px;
+}
+
+.header-logo {
+	max-width: 140px;
+}
+
+/* Main content */
+#main-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*Section Titles*/
+.section-title {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+/* Articles posts */
+.post { margin-bottom: 30px }
+.post .post-thumbnail {
+	display: block;
+	box-shadow: 0px 3px 25px rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+
+.post .post-body {
+	padding: 20px;
+}
+
+.post .post-category {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.post .post-title a {
+	color: #000;
+}
+
+.post .post-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.post .post-meta {
+	color: #a5a5a5;
+	text-transform: uppercase;
+	font-size: 12px;
 	margin-bottom: 15px;
 }
 
-.paragraph {
-	font-family: arial;
-	font-size: 30px;
-	margin-top: 0;
+.post .post-excerpt {
+	font-size: 14px;
 	margin-bottom: 15px;
 }
 
-.paragraph-title {
-	font-size: 16px;
+.post .post-permalink {
+	color: #000;
+	font-size: 15px;
+	text-decoration: none;
+	border-bottom: 1px solid #007bff;
+}
+
+/* Footer Styles */
+#main-footer {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
