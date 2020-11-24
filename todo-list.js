@@ -2,9 +2,10 @@
 
 
 let list = document.getElementById('list')
-let addTaskButton = document.getElementById('add-task')
+let taskForm = document.getElementById('task-form')
 
-addTaskButton.addEventListener('click', function(){
+taskForm.addEventListener('submit', function(e){
+	e.preventDefault()
 	let task = document.getElementById('task')
 	let listItem = document.createElement('li')
 	listItem.innerHTML = task.value;
