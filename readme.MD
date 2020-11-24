@@ -12,6 +12,12 @@ example:
 $ git checkout -b my-new-branch
 ```
 
+### Get all the new changes and branches
+
+```bash
+$ git fetch
+```
+
 ### Change branch
 
 ```bash
