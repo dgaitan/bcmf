@@ -24,6 +24,19 @@ example:
 $ git checkout javascript
 ```
 
+### Get all new changes from remote repository
+
+```bash
+$ git pull origin [branch-name]
+```
+
+example:
+
+```bash
+$ git pull origin master
+```
+
+
 ### Add changes to repository
 
 ```bash
